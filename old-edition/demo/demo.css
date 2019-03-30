@@ -1,0 +1,36 @@
+#container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: darkgrey;
+    border: lightsteelblue 1px solid;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    margin: 30px auto;
+    background-image: url("xxx.png");
+}
+.image.newimg {
+    background-image:url("sss.png");
+}
+
+.status {
+    width: 200px;
+    height: 20px;
+    background-color: indianred;
+    border: black 1px solid;
+    margin: 20px 200px 20px;
+}
+
+.button {
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    text-align: center;
+    margin-left: 50px;
+    font-size: large;
+}

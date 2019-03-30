@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="demo.css">
+
+</head>
+<body>
+<div id="container">
+    <div class="image" v-bind:class="{newimg:statusnow}">
+
+    </div>
+
+    <div class="status" v-bind:style="{width:width + 'px'}">
+
+
+    </div>
+
+    <div class="button">
+        <button @click="countdown" v-show ="!statusnow">练习</button>
+        <button @click="restart">重新开始</button>
+
+    </div>
+    <div class="sss aka jack"></div>
+
+</div>
+
+<script src="demo.js"></script>
+</body>
+</html>
