@@ -1,12 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-  
-     
-        <ul>
+    <ul>
       <li><router-link to='/data'>get data</router-link></li>
       <li><router-link to='/person'>person</router-link></li>
-      <li><router-link to='/todo'>todo</router-link></li>
+      <li><router-link to='/cart'>cart</router-link></li>
     </ul>
     <router-view/>
   </div>

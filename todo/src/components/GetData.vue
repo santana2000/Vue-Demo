@@ -86,6 +86,7 @@
 
     }
     .dota{
+        margin: 10px auto;
         background-color: #eee;
         width: 500px;
         // height: 500px;
@@ -93,6 +94,7 @@
         padding-top:5px;
         border: rgba(0, 0, 0, 0.47) 2px solid;
         border-radius:15px
+
     }
     li{
         display: block;
